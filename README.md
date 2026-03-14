@@ -26,5 +26,6 @@ java Main
 ## Estrutura
 
 A lógica do jogo está separada da interface gráfica:
-- `Game.java` — lógica (tabuleiro, peças, jogadas possíveis, capturas)
-- `GameApp.java` — interface gráfica (visualização e interação)
+- `DamasLogic.java` — lógica (tabuleiro, peças, jogadas possíveis, capturas)
+- `DamasGUI.java` — interface gráfica (visualização e interação)
+- `Position.java` — Objeto posição
